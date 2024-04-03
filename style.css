@@ -58,7 +58,7 @@ img {
     object-fit: cover;
 }
 
-.header, .welcome, .info, .sign-up {
+.header, .welcome, .info, .testimonials, .sign-up {
     padding-left: 150px;
     padding-right: 150px;
 }
@@ -91,6 +91,18 @@ img {
     display: flex;
     flex-direction: column;
     gap: 50px;
+}
+
+.testimonials {
+    background-color: #c5bdae;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
 }
 
 .logo {
@@ -141,6 +153,28 @@ img {
 
 .card > .subtext {
     color: #1f2937c8;
+}
+
+.testimonial-wrap {
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.quote {
+    color: #1f2937c8;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.author {
+    color: #1f2937;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: end;
+    margin-right: 40px;
 }
 
 .img-wrap {
