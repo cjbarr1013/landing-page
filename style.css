@@ -58,7 +58,7 @@ img {
     object-fit: cover;
 }
 
-.header, .welcome, .info, .testimonials, .sign-up {
+.header, .welcome, .info, .testimonials, .sign-up, .footer {
     padding-left: 150px;
     padding-right: 150px;
 }
@@ -109,6 +109,15 @@ img {
     background-image: url(images/pnw-sign-up.jpg);
     background-size: cover;
     min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    background-color: rgb(2, 70, 28);
+    color: #f0e1c3ae;
+    min-height: 75px;
     display: flex;
     justify-content: center;
     align-items: center;
