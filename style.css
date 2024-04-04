@@ -99,9 +99,9 @@ img {
     padding-bottom: 50px;
     min-height: 500px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    gap: 30px;
+    gap: 50px;
     flex-wrap: wrap;
 }
 
@@ -174,7 +174,7 @@ img {
 }
 
 .testimonial-wrap {
-    width: 550px;
+    width: 450px;
     display: flex;
     flex-direction: column;
     gap: 10px;
